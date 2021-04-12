@@ -1,0 +1,75 @@
+.section-social {
+padding-top: 94px;
+padding-bottom: 94px;
+background-color: #f5f4fa;
+}
+
+.text-center-team {
+margin-bottom: 10px;
+text-align: center;
+font-weight: 500;
+font-size: 16px;
+}
+
+.center-team-profession {
+text-align: center;
+font-size: 16px;
+color: var(--color-text-team-nav-main);
+}
+
+.social-team-img-margin {
+flex-basis: calc(100% / 4 - 30px);
+margin-left: 30px;
+}
+
+.social-team-list {
+display: flex;
+margin-left: -30px;
+margin-top: 50px;
+}
+
+.social-img-margin-master {
+width: 270px;
+border-radius: 4px;
+background-color: #fffbfb;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.social-team-card {
+padding: 30px 32px;
+}
+
+.social-list {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social-theme {
+    margin-top: 16px;
+}
+
+.social-links-list {
+    &:not(:last-child) {
+        margin-right: 10px;
+        }
+}
+
+
+.social-links {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
