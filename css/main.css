@@ -72,9 +72,16 @@ img {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
   }
   .footer .container {
     width: 100%;
@@ -87,6 +94,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
 }
 
@@ -990,7 +998,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .about-section {
-    max-width: 1600px;
     display: block;
     padding-top: 47px;
     padding-bottom: 94px;

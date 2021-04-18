@@ -9,15 +9,16 @@
   
 }
 
-// @media screen and (max-width: 767px) {
-//   .container {
-//     display: flex;
-//   }
-// }
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
   }
   .footer .container {
     width: 100%;
@@ -30,6 +31,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
 }
 
