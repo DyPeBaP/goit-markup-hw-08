@@ -1,15 +1,41 @@
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 
-    .header & {
-      display: flex;
-      align-items: center;
-      background-color: #ffffff;
-    }
-    .footer & {
-      display: flex;
-    }
+  .header & {
+  align-items: center;
+  justify-content: space-between;
   }
+  
+}
+
+// @media screen and (max-width: 767px) {
+//   .container {
+//     display: flex;
+//   }
+// }
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .footer .container {
+    width: 100%;
+  }
+  .partners .container {
+    min-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+   width: 1200px;
+    
+  }
+}
