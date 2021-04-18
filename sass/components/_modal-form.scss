@@ -115,8 +115,6 @@
     }
   }
   
-  
-  
   .modal-text-span {
       display: flex;
       align-items: center;
@@ -249,8 +247,6 @@
       display: inline-flex;
       align-items: center;
       min-width: 200px;
-      margin-left: auto;
-
 
       &:hover {
         background-color: var(--accent-text-color);
@@ -266,8 +262,36 @@
       display: inline-flex;
       margin-left: 10px;
   }
+
+  @media screen and (min-width: 480px){
+    .button-footer {
+      display: block;
+     margin: 0 auto;
+    }
+  }
+
+  // @media screen and (min-width: 768px){
+
+  // }
+
+  @media screen and (min-width: 1200px){
+    .button-footer {
+      display: flex;
+     margin: 0;
+    }
+    .footer-window {
+      align-items: left;
+    }
+    .subscription__form {
+      display: flex;
+    }
+    .button-footer {
+      margin-left: 12px;
+    }
+  }
+
 @media screen and (max-width: 767px){
-  .modal{
+  .modal {
       height: auto;
    width: 100vw;
    max-width: 450px;
@@ -284,28 +308,12 @@
   }
 }
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 479px){
     .button-close{
 top: 8 px;
     } 
     .button-footer {
       display: block;
-      margin: 0 auto;
+     margin: 0 auto;
     }
-    // .modal-text-span {
-    //   font-size: 12px;
-    //   line-height: 1.16;
-    //   letter-spacing: 0.03em;
-    // }
-    // .text-span {
-    //   font-size: 12px;
-    //   line-height: 1.16;
-    //   letter-spacing: 0.03em;
-    // }
-}
-@media screen and (min-width: 480px){
-  .button-footer {
-    display: block;
-    margin: 0 auto;
-  }
 }
