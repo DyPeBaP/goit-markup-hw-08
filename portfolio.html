@@ -285,62 +285,61 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <!--Address-->
-            <div class="footer-wraper">
-                <a class="link footer-img-logo" href="" lang="en"><span class="web-blue">Web</span>Studio</a>
+        <div class="container footer__container"> 
+            <!-- Address= -->
+             <div class="footer__address">
+                <a class="link footer__logo" href="" lang="en"><span class="web-blue">Web</span>Studio</a>
                 <address class="address">
-                    <a class="link footer-mail" href="https://goo.gl/maps/PvqXVyYTA6ARjGgU8" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="link address__link" href="https://goo.gl/maps/PvqXVyYTA6ARjGgU8" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                     <ul class="list">
-                        <li class="footer-tel-mail-margin">
-                            <a class="link footer-tel-mail" href="mailto:info@example.com">info@example.com</a>
+                        <li class="address__margin">
+                            <a class="link address__tel-mail" href="mailto:info@example.com">info@example.com</a>
                         </li>
                         <li>
-                            <a class="link footer-tel-mail" href="tel:+380991111111">+38 099 111 11 11</a>
+                            <a class="link address__tel-mail" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
-            </div>
-            <div class="footer-wraper">
-                <p class="footer-text">Присоединяйтесь</p>
+            </div> 
+            <div class="footer__social">
+                <p class="footer__text">Присоединяйтесь</p>
 
-                <ul class="list social-list social-theme">
+                <ul class="list social-network__list social-network__theme">
                 
-                    <li class="social-links-list list">
-                        <a class="footer-social-links list" href="#">
+                    <li class="social-links__list list">
+                        <a class="footer-social__links list" href="#">
                             <div class="social-icon-border">
-                                <svg class="footer-social-icon">
+                                <svg class="footer-social__icon">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </div>
                         </a>
                     </li>
                 
-                    <li class="social-links-list list">
-                        <a class="footer-social-links link" href="#">
+                    <li class="social-links__list list">
+                        <a class="footer-social__links link" href="#">
                             <div class="social-icon-border">
-                                <svg class="footer-social-icon">
+                                <svg class="footer-social__icon">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </div>
                         </a>
                     </li>
                 
-                    <li class="social-links-list list">
-                        <a class="footer-social-links list" href="#">
+                    <li class="social-links__list list">
+                        <a class="footer-social__links list" href="#">
                             <div class="social-icon-border">
-                                <svg class="footer-social-icon">
+                                <svg class="footer-social__icon">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </div>
-                
                         </a>
                     </li>
                 
-                    <li class="social-links-list list">
-                        <a class="footer-social-links list" href="#">
+                    <li class="social-links__list list">
+                        <a class="footer-social__links list" href="#">
                             <div class="social-icon-border">
-                                <svg class="footer-social-icon">
+                                <svg class="footer-social__icon">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </div>
@@ -349,23 +348,20 @@
                 </ul>
             </div>
 
-            <div class="footer-email-window">
-                <p class="footer-wraper-text">Подпишитесь на рассылку</p>
-                <form action="#" class="footer-signup-form" name="footer-signup-form">
-                    <label class="modal-text">
-                        <input type="email" name="user-email" placeholder="E-mail" required class="contacts-form-footer">
-                    </label>
-                    <button type="submit" class="button-footer">     
-                                    Подписаться
-                        <svg class="footer-wraper-icon-button">
-                            <use href="./images/icons.svg#icon-ft-telegram"></use>
-                        </svg>
-                    </button>
-                </form>
-            </div>
-        </div>
+                <div class="footer-window">
+                <p class="subscription__text">Подпишитесь на рассылку</p>
+                     <form class="subscription__form" action="#">
+                       <input class="subscription__email" type="email" name="user-mail" placeholder="E-mail">
+                       <button class="button-footer" type="submit">Подписаться
+                         <svg class="footer-wraper-icon-button">
+                           <use href="./images/icons.svg#icon-ft-telegram"></use>
+                         </svg>
+                       </button>
+                     </form>
+                </div>
+        </div> 
        
-    </footer>
+  </footer>
 </body>
 
 </html>
