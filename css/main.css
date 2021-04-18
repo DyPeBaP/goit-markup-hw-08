@@ -1223,6 +1223,19 @@ img {
   border: 1px solid var(--secondary-text-color);
 }
 
+.partners .container {
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  .partners__item {
+    flex-basis: calc(100% / 2 - 30px);
+  }
+  .partners__link {
+    width: 220px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .partners__item {
     flex-basis: calc(100% / 3 - 30px);
