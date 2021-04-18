@@ -233,7 +233,6 @@
     text-align: center;
   }
   
-  
   .button-footer {
       justify-content: center;
       width: 200px;
@@ -267,16 +266,40 @@
       display: inline-flex;
       margin-left: 10px;
   }
+@media screen and (max-width: 767px){
+  .modal{
+      height: auto;
+   width: 100vw;
+   max-width: 450px;
+  }
+  .modal-text-span {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  .text-span {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+}
 
   @media screen and (max-width: 480px){
     .button-close{
 top: 8 px;
     } 
+    .button-footer {
+      display: block;
+      margin: 0 auto;
+    }
+    // .modal-text-span {
+    //   font-size: 12px;
+    //   line-height: 1.16;
+    //   letter-spacing: 0.03em;
+    // }
+    // .text-span {
+    //   font-size: 12px;
+    //   line-height: 1.16;
+    //   letter-spacing: 0.03em;
+    // }
 }
-  @media screen and (max-width: 768px){
-      .modal{
-          height: auto;
-       width: 100vw;
-       max-width: 450px;
-      }
-  }
