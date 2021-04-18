@@ -510,6 +510,13 @@ img {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .button-footer {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 /* ===== MOBILE ===== */
 .header {
   padding-top: 10px;
@@ -1406,6 +1413,16 @@ img {
   margin-left: 10px;
   width: 24px;
   height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .subscription__email {
+    display: block;
+    width: 450px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {

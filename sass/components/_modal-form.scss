@@ -303,3 +303,9 @@ top: 8 px;
     //   letter-spacing: 0.03em;
     // }
 }
+@media screen and (min-width: 480px){
+  .button-footer {
+    display: block;
+    margin: 0 auto;
+  }
+}
