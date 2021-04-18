@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.header-botder {
+  border: #ececec 1px solid;
+}
+
 .navigation__list {
   display: none;
 }
@@ -147,9 +151,7 @@
   .navigation__list {
     display: block;
   }
-  .header-botder {
-    border: #ececec 1px solid;
-  }
+  
   .header {
     padding-top: 21px;
     padding-bottom: 21px;
