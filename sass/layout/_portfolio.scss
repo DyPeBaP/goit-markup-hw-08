@@ -48,6 +48,7 @@
   justify-content: center;
   margin-bottom: -30px;
   margin-left: -30px;
+
 }
   
 .portfolio-photos {
@@ -93,15 +94,24 @@
   transform: translateY(0%);
   }
 }
+.team-list-link-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 @media screen and (min-width: 768px) {
   .portfolio-nav__list {
     justify-content: center;
   }
+
+   .portfolio-padding {
+    flex-grow: 1;
+   }
+
   .portfolio-photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     flex-basis: calc(100% / 2 - 30px);
     margin-bottom: 30px;
     margin-left: 30px;
