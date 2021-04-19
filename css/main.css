@@ -1577,7 +1577,7 @@ img {
 .portfolio-img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: -30px;
   margin-left: -30px;
 }
@@ -1585,7 +1585,7 @@ img {
 .portfolio-photos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   flex-basis: calc(100% / 1 - 30px);
   margin-bottom: 30px;
   margin-left: 30px;
@@ -1637,7 +1637,7 @@ img {
   .portfolio-photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     flex-basis: calc(100% / 2 - 30px);
     margin-bottom: 30px;
     margin-left: 30px;
