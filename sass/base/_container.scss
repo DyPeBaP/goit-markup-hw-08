@@ -9,10 +9,10 @@
   
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    display: flex;
-  }
+@media screen and (max-width: 768px) {
+  // .container {
+  //   display: flex;
+  // }
 }
 
 @media screen and (min-width: 480px) {
@@ -20,6 +20,7 @@
     width: 480px;
     margin: 0 auto;
   }
+
   .footer .container {
     width: 100%;
   }
@@ -33,11 +34,16 @@
     width: 768px;
     margin: 0 auto;
   }
+
+  .partners .container {
+    min-width: 768px;
+    // justify-content: center;
+  }
+  
 }
 
 @media screen and (min-width: 1200px) {
   .container {
    width: 1200px;
-    
   }
 }
