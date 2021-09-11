@@ -118,28 +118,28 @@
                 <h1 class="visually-hidden">Portfolio</h1>
                 <ul class="list portfolio-nav__list">
                     <li class="list portfolio__item ">
-                        <button class="button-style" type="button">Все</button>
+                        <button class="button-style button__portfolio button__portfolio-all" data-filter="all">Все</button>
                     </li>
                     <li class="list portfolio__item">
-                        <button class="button-style" type="button">Веб-сайты</button>
+                        <button class="button-style button__portfolio button__portfolio-web" data-filter="web">Веб-сайты</button>
                     </li>
                     <li class="list portfolio__item">
-                        <button class="button-style" type="button">Приложения</button>
+                        <button class="button-style button__portfolio button__portfolio-app" data-filter="app">Приложения</button>
                     </li>
                     <li class="list portfolio__item">
-                        <button class="button-style" type="button">Дизайн</button>
+                        <button class="button-style button__portfolio button__portfolio-design" data-filter="design">Дизайн</button>
                     </li>
                     <li class="list portfolio__item">
-                        <button class="button-style" type="button">Маркетинг</button>
+                        <button class="button-style button__portfolio button__portfolio-marketing" data-filter="marketing">Маркетинг</button>
                     </li>
                 </ul>
             </div>
 
             <!--body images-->
             <div class="container">
-                <ul class="list portfolio-img">
+                <ul class="list portfolio-img" id="items">
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all web">
                         <a href="#" class="team-list-link-wrapper link">
                         <div class="portfolio-img-overley">
 
@@ -183,7 +183,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all design">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -229,7 +229,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all app">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -275,7 +275,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all marketing">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -321,7 +321,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all app">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -367,7 +367,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all web">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -413,7 +413,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all design">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -459,7 +459,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all marketing">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -505,7 +505,7 @@
                         </a>
                     </li>
 
-                    <li class="portfolio-photos portfolio-photos-shadows">
+                    <li class="portfolio-photos portfolio-photos-shadows all app">
                         <a href="#" class="team-list-link-wrapper link">
                             <div class="portfolio-img-overley">
 
@@ -633,9 +633,11 @@
         </div> 
        
   </footer>
-  <script src="./js/modal.js"></script>
+    <script src="./js/mainFilter.js"></script>
 
-  <script src="./js/mobile-menu.js"></script>
+  <!-- <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script> -->
+
 </body>
 
 </html>
